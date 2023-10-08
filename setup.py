@@ -6,6 +6,6 @@ setup(
     packages=find_packages(),
     install_requires=[
         'fastapi[all]',
-        'pytest',
+        'pytest==7.1.2',
     ],
 )
