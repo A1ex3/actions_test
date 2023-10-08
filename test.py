@@ -2,7 +2,7 @@ from curses import OK
 from http.client import BAD_REQUEST
 from fastapi.testclient import TestClient
 
-from . import app
+from .__init__ import app
 
 client = TestClient(app)
 
